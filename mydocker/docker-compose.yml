@@ -3,7 +3,7 @@ services:
   rasa_demo_dev:
     build:
       context: ../
-      dockerfile: mydocker/ori.dockerfile
+      dockerfile: mydocker/Dockerfile
     image: rasa-demo-dev:0.0.1
     # runtime: nvidia
     container_name: rasa_demo_dev
